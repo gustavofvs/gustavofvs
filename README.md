@@ -1,5 +1,5 @@
 <!-- Header -->
-<a href="https://github.com/GustavoFernandesVS">
+<a href="https://github.com/gustavofvs">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Hey!%20I'm%20Gustavo%20VS&fontAlign=40&fontAlignY=30&color=0:0575E6,100:00F260&animation=twinkling&fontSize=50&fontColor=ffffff&desc=Welcome%20to%20%my%20profile!&descSize=20&descAlignY=50&descAlign=75#gh-light-mode-only" alt="Header" width="100%" />
 </a>
 
@@ -16,7 +16,7 @@
 
 <!-- Programming languages -->
 <h2>I've worked with</h2>
-<a href="https://github.com/GustavoFernandesVS">
+<a href="https://github.com/gustavofvs">
 <img src="https://skillicons.dev/icons?i=lua,visualstudio,figma,git&theme=dark&perline=8" />
 </a>
 		 
@@ -50,7 +50,7 @@
 <b>I've pinned a few projects below, hope you like them... <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /></b>
   <!-- Footer -->
 <div>
-  <a href="https://github.com/GustavoFernandesVS">
+  <a href="https://github.com/gustavofvs">
   <img src="https://capsule-render.vercel.app/api?section=footer&type=waving&color=0:00F260,100:0575E6#gh-light-mode-only" alt="Footer" width="100%" align = "left"/>
   </a>
 
