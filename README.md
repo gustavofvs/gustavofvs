@@ -8,9 +8,6 @@ I'm a developer working primarily with:
 - **Python** 🐍
 - **Kotlin** 📱
 - **TypeScript (TSX)** 💻
-- **React** ⚛️  
-- **Web Development** 🌐  
-- **Android Development** 📱  
 
 🔧 I'm currently working on enhancing my skills in **web scraping**, **automation**, and **optimizing code sharing** methods. I'm also constantly exploring new technologies to improve my projects and the tools I create.
 
