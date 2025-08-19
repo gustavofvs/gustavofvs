@@ -9,8 +9,6 @@ I'm a developer working primarily with:
 - **Kotlin** 📱
 - **TypeScript (TSX)** 💻
 
-🔧 I'm currently working on enhancing my skills in **web scraping**, **automation**, and **optimizing code sharing** methods. I'm also constantly exploring new technologies to improve my projects and the tools I create.
-
 📚 **What I'm Learning**  
 - Improving code sharing techniques.
 - Exploring new trends in development tools and automation.
