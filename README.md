@@ -20,5 +20,4 @@ I'm a developer working primarily with:
 I believe the best things in life should be free—knowledge, tools, and codes should be accessible to all.
 
 📬 **How to Reach Me**  
-- 🌐 [Website](http://codeheist.run)  
 - 📧 Email: [gustavofernandesvs@gmail.com](mailto:gustavofernandesvs@gmail.com)
