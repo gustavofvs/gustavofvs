@@ -1,89 +1,75 @@
-# Olá, eu sou o Gustavo Fernandes 👋
+<div align="center">
+<p align="center">
+  Sou um <strong>Desenvolvedor de Software</strong> apaixonado pelo ecossistema <strong>Android</strong>, especializado em criar experiências mobile nativas de alta performance com <strong>Kotlin</strong>. Minha bagagem como <strong>Full-Stack</strong> e <strong>UI/UX Designer</strong> me permite construir soluções completas, pensando na arquitetura do servidor, na lógica de negócio e, principalmente, na usabilidade e beleza da interface final.
+</p>
 
-### Engenheiro de Software Full-Stack | Desenvolvedor Android | UI/UX Designer
-
-[![Gmail Badge](https://img.shields.io/badge/-gustavofernandesvs@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gustavofernandesvs@gmail.com)](mailto:gustavofernandesvs@gmail.com)
-
-Sou um desenvolvedor apaixonado por construir soluções digitais completas, desde a arquitetura robusta do back-end até a criação de interfaces intuitivas e acessíveis. Com experiência em ambientes corporativos e empreendedores, meu objetivo é transformar ideias complexas em software de alta performance e com ótima experiência de uso.
-
-Estou **aberto a novas oportunidades** e focado em construir um portfólio que demonstre minhas habilidades!
-
----
-
-## 🚀 Sobre Mim
-
-* 👨‍💻 Como **Engenheiro Full-Stack**, tenho experiência na construção de sistemas complexos e APIs robustas.
-* 📱 Como **Desenvolvedor Android**, crio aplicações nativas em Kotlin e Java, focando em performance e usabilidade.
-* 🎨 Como **UI/UX Designer**, garanto que cada projeto não seja apenas funcional, mas também visualmente atraente e fácil de usar.
+<p align="center">
+  <a href="mailto:gustavofernandesvs@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+</p>
 
 ---
 
-## 💻 Tecnologias e Ferramentas
-
-Aqui estão algumas das tecnologias com as quais tenho trabalhado:
+## 🎯 Meu Foco Principal: Ecossistema Android
 
 <table>
   <tr>
-    <td align="center" width="96">
-      <a href="#-front-end">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,vite,html,css,ts,js" width="48" height="48" alt="Front-End" />
-      </a>
-      <br>Front-End
+    <td valign="top" width="60%">
+      <p>Minha paixão e área de maior especialização. Trabalho para construir apps fluidos, escaláveis e alinhados com as melhores práticas do mercado:</p>
+      <ul>
+        <li>⚛️ <strong>Arquitetura Limpa (Clean Architecture)</strong> e padrão <strong>MVVM</strong></li>
+        <li>🎨 UI moderna e reativa com <strong>Jetpack Compose</strong></li>
+        <li>🧵 Gerenciamento de concorrência com <strong>Kotlin Coroutines & Flow</strong></li>
+        <li>💉 Injeção de Dependência com <strong>Hilt</strong> ou <strong>Koin</strong></li>
+        <li>🌐 Consumo de APIs com <strong>Retrofit</strong> e persistência de dados com <strong>Room</strong></li>
+        <li>🧪 Testes Unitários e de Instrumentação (<strong>JUnit</strong>, <strong>Mockito</strong>, <strong>Espresso</strong>)</li>
+      </ul>
     </td>
-    <td align="center" width="96">
-      <a href="#-back-end">
-        <img src="https://skillicons.dev/icons?i=java,spring,nodejs,cs,dotnet" width="48" height="48" alt="Back-End" />
-      </a>
-      <br>Back-End
-    </td>
-    <td align="center" width="96">
-      <a href="#-mobile">
-        <img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio" width="48" height="48" alt="Mobile" />
-      </a>
-      <br>Mobile
-    </td>
-    <td align="center" width="96">
-      <a href="#-devops--infra">
-        <img src="https://skillicons.dev/icons?i=docker,git,github,wsl" width="48" height="48" alt="DevOps" />
-      </a>
-      <br>DevOps & Infra
-    </td>
-    <td align="center" width="96">
-      <a href="#-design--game-dev">
-        <img src="https://skillicons.dev/icons?i=figma,unity,cpp" width="48" height="48" alt="Design & Game Dev" />
-      </a>
-      <br>Design & Game Dev
+    <td valign="top" width="40%">
+      <div align="center">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnQ2MmFlZGRwOW55Nmxna3pkeDV0Nmd4bHhuc3R0MTZ2bm9vOWV2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MeJmB30J422j2vwyda/giphy.gif" alt="Animação de Desenvolvimento Mobile" width="100%">
+      </div>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🌱 Atualmente...
+## 🛠️ Outras Tecnologias que Domino
 
-* 🏗️ **Construindo um portfólio robusto** com projetos que demonstram minhas habilidades de ponta a ponta.
-* 🧠 Aprofundando meus conhecimentos em **arquiteturas de microsserviços** e boas práticas de DevOps com **Docker e CI/CD**.
-* 📱 Explorando as novidades do ecossistema Android e aprimorando técnicas de UI com **Jetpack Compose**.
-
----
-
-## 🏆 Projetos em Destaque
-
-#### 🚀 ExamFlow: Plataforma Inteligente para Criação de Provas
-* **Descrição:** Uma plataforma completa desenvolvida para simplificar o processo de criação, gerenciamento e aplicação de provas. O projeto utiliza uma arquitetura moderna com um back-end robusto em **C# (.NET)**, um front-end interativo construído com **Vue.js** e **TypeScript**, e componentes em **Python** para processamento de dados e outras funcionalidades avançadas. Toda a aplicação é containerizada com **Docker**, garantindo um ambiente de desenvolvimento consistente.
-* **Tecnologias:** `C#`, `.NET`, `Vue.js`, `TypeScript`, `Docker`.
-* **[🔗 Ver no GitHub](https://github.com/Exam-Flow/)** 
+<p align="center">
+  <a href="#"><img src="https://skillicons.dev/icons?i=kotlin,java,androidstudio,firebase" alt="Mobile Skills"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=vue,react,ts,js,vite,html,css" alt="Front-End Skills"></a>
+  <a href="#"><img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,nodejs,python" alt="Back-End Skills"></a>
+  <br>
+  <a href="#"><img src="https://skillicons.dev/icons?i=docker,git,github,figma,unity,cpp" alt="Other Skills"></a>
+</p>
 
 ---
 
-## 🏎️ Fora do Código
+## 🏆 Projeto em Destaque
 
-Quando não estou programando, você pode me encontrar nas pistas virtuais. Sou **piloto de automobilismo virtual**, uma paixão que combina estratégia, precisão e alta performance – valores que também aplico no desenvolvimento de software.
+<details open>
+  <summary><strong>🌐 Projeto Full-Stack: ExamFlow</strong></summary>
+  
+  #### 🚀 ExamFlow: Plataforma Inteligente para Criação de Provas
+  * **Descrição:** Plataforma completa para criação e gerenciamento de provas. Desenvolvida com back-end em **C# (.NET)**, front-end em **Vue.js** e containerizada com **Docker**.
+  * **Tecnologias:** `C#`, `.NET`, `Vue.js`, `Python`, `TypeScript`, `Docker`.
+  * **[🔗 Ver no GitHub](https://github.com/Exam-Flow/)**
+</details>
 
 ---
 
-## 📊 Minhas Estatísticas no GitHub
+## 📊 Minhas Estatísticas e Atividades
 
-![Estatísticas do GitHub de Gustavo](https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=dracula&include_all_commits=true&count_private=true)
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavofvs&layout=compact&langs_count=7&theme=dracula"/>
+</div>
 
-![Linguagens Mais Usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=gustavofvs&layout=compact&langs_count=7&theme=dracula)
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gustavofvs&theme=dracula" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github.com/gustavofvs/gustavofvs/blob/output/github-contribution-grid-snake.svg" alt="Snake animation">
+</div>
