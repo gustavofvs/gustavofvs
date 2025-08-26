@@ -13,7 +13,6 @@
 
 <table>
   <tr>
-    <td valign="top" width="60%">
       <p>Minha paixão e área de maior especialização. Trabalho para construir apps fluidos, escaláveis e alinhados com as melhores práticas do mercado:</p>
       <ul>
         <li>⚛️ <strong>Arquitetura Limpa (Clean Architecture)</strong> e padrão <strong>MVVM</strong></li>
@@ -23,13 +22,6 @@
         <li>🌐 Consumo de APIs com <strong>Retrofit</strong> e persistência de dados com <strong>Room</strong></li>
         <li>🧪 Testes Unitários e de Instrumentação (<strong>JUnit</strong>, <strong>Mockito</strong>, <strong>Espresso</strong>)</li>
       </ul>
-    </td>
-    <td valign="top" width="40%">
-      <div align="center">
-        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnQ2MmFlZGRwOW55Nmxna3pkeDV0Nmd4bHhuc3R0MTZ2bm9vOWV2bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MeJmB30J422j2vwyda/giphy.gif" alt="Animação de Desenvolvimento Mobile" width="100%">
-      </div>
-    </td>
-  </tr>
 </table>
 
 ---
