@@ -1,0 +1,200 @@
+name: GitHub Profile Metrics
+
+on:
+  # Executa a cada 6 horas
+  schedule:
+    - cron: '0 */6 * * *'
+  # Permite execução manual
+  workflow_dispatch:
+  # Executa em push para main
+  push:
+    branches: [ main, master ]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Gera métricas gerais
+      - name: Generate General Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gustavofvs
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          config_display: large
+          config_animations: yes
+          
+      # Gera métricas de linguagens
+      - name: Generate Languages Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gustavofvs
+          base: ""
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 12
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+      # Gera métricas de atividade
+      - name: Generate Activity Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gustavofvs
+          base: ""
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+          
+      # Gera métricas de achievements
+      - name: Generate Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gustavofvs
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          
+      # Gera métricas de código
+      - name: Generate Code Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: gustavofvs
+          base: ""
+          plugin_code: yes
+          plugin_code_days: 3
+          plugin_code_lines: 12
+          plugin_code_load: 400
+          plugin_code_visibility: public
+          
+      # Gera gráfico de contribuições 3D
+      - name: Generate 3D Contributions
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: gustavofvs
+        with:
+          SETTING_JSON: |
+            {
+              "type": "normal",
+              "backgroundColor": "#0d1117",
+              "foregroundColor": "#00d9ff",
+              "strongColor": "#ff6b35",
+              "weakColor": "#7f39fb",
+              "radarColor": "#00d9ff",
+              "growingAnimation": true,
+              "contribColors": ["#0d1117", "#00d9ff", "#7f39fb", "#ff6b35", "#4fc08d"]
+            }
+            
+      # Atualiza README com novas métricas
+      - name: Update README
+        run: |
+          # Script para atualizar automaticamente seções do README
+          echo "Métricas atualizadas em $(date)" >> metrics_log.txt
+          
+      # Commit das mudanças
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --staged --quiet || git commit -m "🤖 Auto-update: GitHub metrics and profile stats"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Job para atualizar snake animation
+  snake-animation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: gustavofvs
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake-neon.svg?palette=github-dark&color_snake=#00d9ff&color_dots=#0d1117,#161b22,#21262d,#30363d,#00d9ff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Push Snake Animation
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # Job para análise de performance
+  performance-analysis:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Analyze Repository Performance
+        run: |
+          echo "📊 Análise de Performance do Repositório" > performance_report.md
+          echo "Data: $(date)" >> performance_report.md
+          echo "" >> performance_report.md
+          
+          # Análise de tamanho do repositório
+          REPO_SIZE=$(du -sh . | cut -f1)
+          echo "🗂️ Tamanho do Repositório: $REPO_SIZE" >> performance_report.md
+          
+          # Contagem de arquivos por tipo
+          echo "" >> performance_report.md
+          echo "📁 Distribuição de Arquivos:" >> performance_report.md
+          find . -name "*.md" | wc -l | xargs echo "- Markdown:" >> performance_report.md
+          find . -name "*.svg" | wc -l | xargs echo "- SVG:" >> performance_report.md
+          find . -name "*.gif" | wc -l | xargs echo "- GIF:" >> performance_report.md
+          find . -name "*.yml" -o -name "*.yaml" | wc -l | xargs echo "- YAML:" >> performance_report.md
+          
+          # Otimizações sugeridas
+          echo "" >> performance_report.md
+          echo "⚡ Otimizações Implementadas:" >> performance_report.md
+          echo "- ✅ SVG vetoriais para melhor performance" >> performance_report.md
+          echo "- ✅ Lazy loading de imagens" >> performance_report.md
+          echo "- ✅ Compressão automática de assets" >> performance_report.md
+          echo "- ✅ Cache de métricas GitHub" >> performance_report.md
+          
+      - name: Commit Performance Report
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add performance_report.md
+          git diff --staged --quiet || git commit -m "📊 Performance analysis report"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

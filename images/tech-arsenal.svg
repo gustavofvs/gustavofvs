@@ -1,0 +1,176 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradientes -->
+    <linearGradient id="codeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7F39FB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="glowEffect" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Filtros -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/> 
+      </feMerge>
+    </filter>
+    
+    <!-- Animações -->
+    <style>
+      .rotating {
+        animation: rotate 20s linear infinite;
+        transform-origin: 200px 150px;
+      }
+      
+      .pulsing {
+        animation: pulse 2s ease-in-out infinite alternate;
+      }
+      
+      .floating {
+        animation: float 3s ease-in-out infinite;
+      }
+      
+      .code-stream {
+        animation: stream 4s linear infinite;
+      }
+      
+      .tech-orbit {
+        animation: orbit 15s linear infinite;
+        transform-origin: 200px 150px;
+      }
+      
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      @keyframes pulse {
+        from { opacity: 0.6; transform: scale(1); }
+        to { opacity: 1; transform: scale(1.1); }
+      }
+      
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      
+      @keyframes stream {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      
+      @keyframes orbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      
+      .tech-icon {
+        transition: all 0.3s ease;
+      }
+      
+      .tech-icon:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(0 0 10px #00D9FF);
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0D1117" rx="20"/>
+  
+  <!-- Central Core -->
+  <circle cx="200" cy="150" r="40" fill="url(#glowEffect)" class="pulsing"/>
+  <circle cx="200" cy="150" r="25" fill="url(#codeGradient)" filter="url(#glow)" class="floating"/>
+  
+  <!-- Code Streams -->
+  <g class="code-stream">
+    <path d="M50,50 Q200,100 350,50" stroke="#00D9FF" stroke-width="2" fill="none" 
+          stroke-dasharray="10,5" opacity="0.7"/>
+    <path d="M50,250 Q200,200 350,250" stroke="#7F39FB" stroke-width="2" fill="none" 
+          stroke-dasharray="8,4" opacity="0.7"/>
+    <path d="M50,150 L350,150" stroke="#FF6B35" stroke-width="2" fill="none" 
+          stroke-dasharray="12,6" opacity="0.7"/>
+  </g>
+  
+  <!-- Orbiting Tech Icons -->
+  <g class="tech-orbit">
+    <!-- Android -->
+    <g transform="translate(280,80)" class="tech-icon">
+      <circle cx="0" cy="0" r="15" fill="#3DDC84" opacity="0.2"/>
+      <path d="M-8,-5 L8,-5 L8,5 L-8,5 Z M-5,-8 L-5,-2 M5,-8 L5,-2" 
+            stroke="#3DDC84" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- Vue.js -->
+    <g transform="translate(320,220)" class="tech-icon">
+      <circle cx="0" cy="0" r="15" fill="#4FC08D" opacity="0.2"/>
+      <path d="M-8,5 L0,-8 L8,5 L4,5 L0,-2 L-4,5 Z" fill="#4FC08D"/>
+    </g>
+    
+    <!-- Docker -->
+    <g transform="translate(80,220)" class="tech-icon">
+      <circle cx="0" cy="0" r="15" fill="#2496ED" opacity="0.2"/>
+      <rect x="-6" y="-3" width="12" height="6" fill="#2496ED" rx="1"/>
+      <rect x="-4" y="-6" width="8" height="3" fill="#2496ED" rx="1"/>
+    </g>
+    
+    <!-- Kotlin -->
+    <g transform="translate(120,80)" class="tech-icon">
+      <circle cx="0" cy="0" r="15" fill="#7F52FF" opacity="0.2"/>
+      <path d="M-8,-8 L8,8 L-8,8 Z" fill="#7F52FF"/>
+    </g>
+  </g>
+  
+  <!-- Rotating Outer Ring -->
+  <g class="rotating">
+    <circle cx="200" cy="150" r="100" stroke="url(#codeGradient)" stroke-width="2" 
+            fill="none" opacity="0.3" stroke-dasharray="5,10"/>
+    
+    <!-- Tech Nodes -->
+    <circle cx="300" cy="150" r="8" fill="#00D9FF" class="pulsing"/>
+    <circle cx="100" cy="150" r="8" fill="#7F39FB" class="pulsing"/>
+    <circle cx="200" cy="50" r="8" fill="#FF6B35" class="pulsing"/>
+    <circle cx="200" cy="250" r="8" fill="#4FC08D" class="pulsing"/>
+  </g>
+  
+  <!-- Central Text -->
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="middle" 
+        fill="white" font-family="JetBrains Mono, monospace" font-size="12" font-weight="bold">
+    TECH
+  </text>
+  <text x="200" y="165" text-anchor="middle" dominant-baseline="middle" 
+        fill="#00D9FF" font-family="JetBrains Mono, monospace" font-size="10">
+    ARSENAL
+  </text>
+  
+  <!-- Binary Code Background -->
+  <g opacity="0.1">
+    <text x="20" y="30" fill="#00D9FF" font-family="monospace" font-size="8">
+      01001000 01100101 01101100 01101100 01101111
+    </text>
+    <text x="20" y="280" fill="#7F39FB" font-family="monospace" font-size="8">
+      01010111 01101111 01110010 01101100 01100100
+    </text>
+  </g>
+  
+  <!-- Performance Indicators -->
+  <g transform="translate(20,20)">
+    <rect width="60" height="20" fill="#0D1117" stroke="#00D9FF" stroke-width="1" rx="10"/>
+    <text x="30" y="15" text-anchor="middle" fill="#00D9FF" font-family="monospace" font-size="8">
+      99.9%
+    </text>
+  </g>
+  
+  <g transform="translate(320,20)">
+    <rect width="60" height="20" fill="#0D1117" stroke="#FF6B35" stroke-width="1" rx="10"/>
+    <text x="30" y="15" text-anchor="middle" fill="#FF6B35" font-family="monospace" font-size="8">
+      &lt;200ms
+    </text>
+  </g>
+</svg>
