@@ -93,17 +93,9 @@ Intelligent assessment platform revolutionizing academic exam creation.
   <a href="mailto:gustavofernandesvs@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/📧%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/gustavofvs" target="_blank">
-    <img src="https://img.shields.io/badge/💼%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" />
-  </a>
   <a href="https://github.com/gustavofvs" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
   </a>
-</div>
-
-<!-- VISITOR COUNTER -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=gustavofvs&style=for-the-badge&color=00D9FF&labelColor=000000" alt="Profile Views" />
 </div>
 
 ---
