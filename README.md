@@ -72,7 +72,7 @@ Intelligent assessment platform revolutionizing academic exam creation.
 
 <!-- MÉTRICAS DE PERFORMANCE -->
 <div align="center">
-  <h2>📊 <strong>MÉTRICAS DE EXCELÊNCIA</strong> 📊</h2>
+  <h2>📊 Performance Metrics 📊</h2>
 </div>
 
 <div align="center">
