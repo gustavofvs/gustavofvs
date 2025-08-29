@@ -70,54 +70,6 @@ Intelligent assessment platform revolutionizing academic exam creation.
 
 </details>
 
-<!-- SEÇÃO DE PROJETOS PREMIUM -->
-<div align="center">
-  <img src="./images/astronomy.gif" width="100" height="100">
-  <h2>🏆 <strong>PROJETOS DE IMPACTO</strong> 🏆</h2>
-</div>
-
-<div align="center">
-
-<!-- PROJETO PRINCIPAL -->
-<table>
-<tr>
-<td width="50%">
-
-### 🚀 **ExamFlow Platform**
-**Plataforma Inteligente de Avaliações**
-
-🎯 **Impacto:** Revolucionando a criação de provas acadêmicas  
-⚡ **Performance:** 99.9% uptime, <200ms response time  
-🏗️ **Arquitetura:** Microservices + Clean Architecture  
-🔧 **Stack:** C# .NET + Vue.js + Docker + PostgreSQL  
-
-**[🔗 Explorar Projeto](https://github.com/Exam-Flow/)**
-
-</td>
-<td width="50%">
-
-```mermaid
-graph TD
-    A[Frontend Vue.js] --> B[API Gateway]
-    B --> C[Auth Service]
-    B --> D[Exam Service]
-    B --> E[Analytics Service]
-    C --> F[(PostgreSQL)]
-    D --> F
-    E --> G[(MongoDB)]
-    H[Docker] --> A
-    H --> B
-    H --> C
-    H --> D
-    H --> E
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
 <!-- MÉTRICAS DE PERFORMANCE -->
 <div align="center">
   <h2>📊 <strong>MÉTRICAS DE EXCELÊNCIA</strong> 📊</h2>
@@ -137,34 +89,6 @@ graph TD
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gustavofvs&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FF6B35" width="100%" />
 </div>
 
-<!-- BADGES DINÂMICOS DE PERFORMANCE -->
-<div align="center">
-  <h2>⚡ <strong>MÉTRICAS EM TEMPO REAL</strong> ⚡</h2>
-  <img src="./images/dynamic-badges.svg" width="800" height="200" alt="Dynamic Performance Badges">
-</div>
-
-<!-- CONQUISTAS E CERTIFICAÇÕES -->
-<div align="center">
-  <h2>🏅 <strong>CONQUISTAS & RECONHECIMENTOS</strong> 🏅</h2>
-</div>
-
-<div align="center">
-
-| 🎖️ **Certificação** | 🏆 **Conquista** | 📈 **Impacto** |
-|:---:|:---:|:---:|
-| **Android Developer Expert** | **10+ Apps Publicadas** | **100K+ Downloads** |
-| **Clean Architecture Master** | **Zero-Bug Production** | **99.9% Uptime** |
-| **Full-Stack Architect** | **Microservices Design** | **50% Performance Gain** |
-| **UI/UX Design Specialist** | **Award-Winning Interfaces** | **95% User Satisfaction** |
-
-</div>
-
-<!-- SEÇÃO DE CONTATO PREMIUM -->
-<div align="center">
-  <h2>🤝 <strong>VAMOS CONSTRUIR O FUTURO JUNTOS</strong> 🤝</h2>
-  <p><em>"Grandes projetos nascem de grandes parcerias"</em></p>
-</div>
-
 <div align="center">
   <a href="mailto:gustavofernandesvs@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/📧%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
@@ -177,11 +101,6 @@ graph TD
   </a>
 </div>
 
-<!-- FOOTER ANIMADO -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=footer&animation=twinkling" width="100%" />
-</div>
-
 <!-- VISITOR COUNTER -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=gustavofvs&style=for-the-badge&color=00D9FF&labelColor=000000" alt="Profile Views" />
@@ -191,5 +110,4 @@ graph TD
 
 <div align="center">
   <h3>💫 <em>"Code is Poetry, Architecture is Symphony, Innovation is Revolution"</em> 💫</h3>
-  <p><strong>© 2024 Gustavo Fernandes - Crafting Digital Excellence</strong></p>
 </div>
