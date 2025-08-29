@@ -4,7 +4,7 @@
 
 ## About
 
-Software architect with 10+ years of experience developing mobile and web applications. Specialized in Android development, full-stack solutions, and clean architecture patterns.
+A Computer Science student at IF Goiano and a passionate software developer with over 3.5 years of hands-on experience. I focus on building robust and scalable mobile and web solutions, applying best practices like Clean Architecture, MVVM, and full-stack development to deliver high-quality projects.
 
 ## Technical Skills
 
