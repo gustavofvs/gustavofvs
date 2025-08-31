@@ -1,6 +1,6 @@
 # Gustavo Fernandes
 
-**Senior Software Architect | Mobile & Full-Stack Developer**
+**Software Architect | Mobile & Full-Stack Developer**
 
 ## About
 
