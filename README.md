@@ -14,7 +14,7 @@ A Computer Science student at IF Goiano and a passionate software developer with
 
 ### Full-Stack Development
 - **Frontend**: Vue.js, React, TypeScript, HTML/CSS, Tailwind
-- **Backend**: .NET Core, Node.js, Python, Java Spring
+- **Backend**: .NET Core, Node.js, Java Spring
 - **Databases**: PostgreSQL, MongoDB
 
 ### DevOps & Tools
@@ -48,7 +48,7 @@ Intelligent assessment platform revolutionizing academic exam creation.
 <div align="center">
   <img src="https://skillicons.dev/icons?i=vue,nuxt,react,nextjs,ts,js,html,css,tailwind" alt="Frontend Stack" />
   <br><br>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,python,java,spring,postgresql,mongodb" alt="Backend Stack" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,java,spring,postgresql,mongodb" alt="Backend Stack" />
   <br><br>
   <img src="https://img.shields.io/badge/Microservices-FF9500?style=for-the-badge&logo=microservices&logoColor=white" />
   <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
