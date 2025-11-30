@@ -47,8 +47,8 @@ function updateReadme() {
     experienceText += ' of practical experience';
     
     // O padrão que a Action vai buscar e substituir no seu README.md
-    // A regex busca o padrão "X year(s), Y month(s) and Z day(s) of practical experience"
-    const regex = /(\d+\s+years?(,\s+\d+\s+months?)(\s+and\s+\d+\s+days?)?\s+of\s+practical\s+experience)/;
+    // A regex busca qualquer padrão de experiência e substitui pelo novo formato
+    const regex = /(\d+\.?\d*\s+years?(\s*,\s*\d+\s+months?)?(\s+and\s+\d+\s+days?)?\s+of\s+practical\s+experience)/;
 
     // Substitui o texto antigo pelo novo texto formatado
     if (readme.match(regex)) {
