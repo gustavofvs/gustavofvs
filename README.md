@@ -4,7 +4,7 @@
 
 ## About
 
-Software Architect and Full-Stack Developer with **3.5 years of practical experience**, specializing in scalable solutions and system performance. I am currently deepening my expertise in **Systems Programming (Rust)** to build ultra-low latency applications and strengthen core architectural design.
+Software Architect and Full-Stack Developer with **3 years, 7 months and 15 days of practical experience**, specializing in scalable solutions and system performance. I am currently deepening my expertise in **Systems Programming (Rust)** to build ultra-low latency applications and strengthen core architectural design.
 
 My focus is on bridging robust **C#/.NET Core Backends** with modern **React/Vue.js Frontends** while ensuring professional delivery through **DevOps, Clean Architecture (MVVM/Microservices), and strict type safety (TypeScript)**. 
 
