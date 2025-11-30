@@ -4,7 +4,11 @@
 
 ## About
 
-A Computer Science student at IF Goiano and a passionate software developer with over 3.5 years of hands-on experience. I focus on building robust and scalable mobile and web solutions, applying best practices like Clean Architecture, MVVM, and full-stack development to deliver high-quality projects.
+Software Architect and Full-Stack Developer with 3.5+ years of practical experience, specializing in scalable solutions and system performance. I am currently deepening my expertise in **Systems Programming (Rust)** to build ultra-low latency applications and strengthen core architectural design.
+
+My focus is on bridging robust **C#/.NET Core Backends** with modern **React/Vue.js Frontends** while ensuring professional delivery through **DevOps, Clean Architecture (MVVM/Microservices), and strict type safety (TypeScript)**. 
+
+I strive to deliver efficient, maintainable code that consistently meets high-availability metrics, as demonstrated by the **ExamFlow Platform**'s performance record.
 
 ## Technical Skills
 
