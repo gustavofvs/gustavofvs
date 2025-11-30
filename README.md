@@ -44,7 +44,6 @@ Microservices-based assessment platform with Clean Architecture
 ## Performance
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" />
   <img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=gustavofvs&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=FFFFFF" />
 </div>
 
