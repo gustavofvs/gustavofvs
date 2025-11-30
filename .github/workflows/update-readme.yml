@@ -1,0 +1,38 @@
+# .github/workflows/update-readme.yml
+
+name: Update Experience Badge
+
+# Roda este workflow todos os dias à 00:00 (no horário de Brasília, aproximadamente)
+on:
+  schedule:
+    - cron: '0 3 * * *' # Roda todos os dias às 03:00 UTC
+  workflow_dispatch: # Permite rodar o workflow manualmente
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Calculate and Update README
+        run: node .github/scripts/update_experience.js
+      
+      - name: Commit and Push Changes
+        run: |
+          git config user.name 'GitHub Actions Bot'
+          git config user.email 'actions-bot@users.noreply.github.com'
+          git add README.md
+          # Verifica se há mudanças antes de commitar
+          if git diff --cached --exit-code; then
+            echo "Nenhuma mudança no README, ignorando commit."
+          else
+            git commit -m "docs: Auto-updated experience metrics [skip ci]"
+            git push
+          fi
