@@ -2,108 +2,56 @@
 
 **Software Architect | Mobile & Full-Stack Developer**
 
+<div align="center">
+  
+```diff
++ 3 years, 7 months and 16 days of practical experience
+```
+
+</div>
+
 ## About
 
-Software Architect and Full-Stack Developer with **3 years, 7 months and 15 days of practical experience**, specializing in scalable solutions and system performance. I am currently deepening my expertise in **Systems Programming (Rust)** to build ultra-low latency applications and strengthen core architectural design.
+Software Architect and Full-Stack Developer specializing in **high-concurrency systems** and scalable solutions. 
 
-My focus is on bridging robust **C#/.NET Core Backends** with modern **React/Vue.js Frontends** while ensuring professional delivery through **DevOps, Clean Architecture (MVVM/Microservices), and strict type safety (TypeScript)**. 
+I excel at bridging robust **C#/.NET Backends** with modern **React/Vue.js Frontends** while ensuring professional delivery through DevOps, Clean Architecture, and strict type safety.
 
-I strive to deliver efficient, maintainable code that consistently meets high-availability metrics, as demonstrated by the **ExamFlow Platform**'s performance record.
+My current focus is on mastering **Systems Programming (Rust)** to solve low-latency challenges and translate complex engineering decisions into clear, maintainable architecture—a skillset demonstrated by my work on the **ExamFlow Platform**.
 
-## Technical Skills
+I prioritize efficient, maintainable code that consistently meets high-availability metrics.
 
-### Mobile Development
-- **Android**: Kotlin, Java, Jetpack Compose, Clean Architecture, MVVM
-- **Cross-platform**: Flutter, Dart
+---
 
-### Full-Stack Development
-- **Frontend**: Vue.js, React, TypeScript, HTML/CSS, Tailwind
-- **Backend**: .NET Core, Node.js, Java Spring
-- **Databases**: PostgreSQL, MongoDB
+## Core Stack
 
-### DevOps & Tools
-- **Containerization**: Docker, Kubernetes
-- **Cloud**: AWS, Google Cloud Platform
-- **CI/CD**: GitHub Actions, GitLab CI
-- **Design**: Figma, UI/UX Design
+**Backend** → C# .NET · Node.js · Java Spring · Rust · Tokio  
+**Frontend** → React · Vue.js · TypeScript  
+**Mobile** → Kotlin · Flutter · Jetpack Compose  
+**DevOps** → Docker · Kubernetes · AWS · GCP  
+**Data** → PostgreSQL · MongoDB
 
-## Featured Project
+---
 
-### ExamFlow Platform
-Intelligent assessment platform revolutionizing academic exam creation.
+## Featured Work
 
-- **Architecture**: Microservices with Clean Architecture
-- **Stack**: C# .NET, Vue.js, Docker, PostgreSQL
-- **Performance**: 99.9% uptime, <200ms response time
-- **[View Project](https://github.com/Exam-Flow/)**
+### [ExamFlow Platform](https://github.com/Exam-Flow/)
+Microservices-based assessment platform with Clean Architecture  
+**Stack:** C# .NET · Vue.js · Docker · PostgreSQL  
+**Metrics:** 99.9% uptime · <200ms response time
 
-## GitHub Stats
+---
+
+## Performance
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=dark&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavofvs&layout=compact&langs_count=8&theme=dark" />
-</div>
-
-</details>
-
-<details>
-<summary><h3>🌐 <strong>FULL-STACK MASTERY</strong></h3></summary>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=vue,nuxt,react,nextjs,ts,js,html,css,tailwind" alt="Frontend Stack" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,nodejs,java,spring,postgresql,mongodb" alt="Backend Stack" />
-  <br><br>
-  <img src="https://img.shields.io/badge/Microservices-FF9500?style=for-the-badge&logo=microservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-  <img src="https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=api&logoColor=white" />
-</div>
-
-</details>
-
-<details>
-<summary><h3>🛠️ <strong>DEVOPS & TOOLS</strong></h3></summary>
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,git,github,gitlab,figma,unity" alt="DevOps Stack" />
-  <br><br>
-  <img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Monitoring-FF6B35?style=for-the-badge&logo=datadog&logoColor=white" />
-  <img src="https://img.shields.io/badge/Testing-25C2A0?style=for-the-badge&logo=jest&logoColor=white" />
-</div>
-
-</details>
-
-<!-- MÉTRICAS DE PERFORMANCE -->
-<div align="center">
-  <h2>📊 Performance Metrics 📊</h2>
-</div>
-
-<div align="center">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" />
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavofvs&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gustavofvs&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=FFFFFF" alt="GitHub Streak" />
-</div>
-
-<!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gustavofvs&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FF6B35" width="100%" />
-</div>
-
-<div align="center">
-  <a href="mailto:gustavofernandesvs@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/📧%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" />
-  </a>
-  <a href="https://github.com/gustavofvs" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" />
-  </a>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=gustavofvs&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" />
+  <img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=gustavofvs&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=FFFFFF" />
 </div>
 
 ---
 
 <div align="center">
-  <h3>💫 <em>"Code is Poetry, Architecture is Symphony, Innovation is Revolution"</em> 💫</h3>
+  
+**[📧 Email](mailto:gustavofernandesvs@gmail.com)** • **[💼 GitHub](https://github.com/gustavofvs)**
+
 </div>
