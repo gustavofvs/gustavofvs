@@ -14,9 +14,9 @@
 
 Software Architect and Full-Stack Developer specializing in **high-concurrency systems** and scalable solutions. 
 
-I excel at bridging robust **C#/.NET Backends** with modern **React/Vue.js Frontends** while ensuring professional delivery through DevOps, Clean Architecture, and strict type safety.
+I excel at **integrating with robust C#/.NET Core Backends** and translating that performance into modern **React/Vue.js Frontends**. My focus is on ensuring professional delivery through strict type safety (TypeScript), Clean Architecture (MVVM/Microservices), and solid DevOps practices.
 
-My current focus is on mastering **Systems Programming (Rust)** to solve low-latency challenges and translate complex engineering decisions into clear, maintainable architecture—a skillset demonstrated by my work on the **ExamFlow Platform**.
+I am currently deepening my expertise in **Systems Programming (Rust)** to solve low-latency challenges and strengthen core architectural design—a skillset demonstrated by my work on the **ExamFlow Platform**.
 
 I prioritize efficient, maintainable code that consistently meets high-availability metrics.
 
