@@ -1,56 +1,50 @@
-# Gustavo Fernandes
+# `Engineering. Refined.`
 
-**Software Architect | Mobile & Full-Stack Developer**
-
-<div align="center">
-  
-```diff
-+ 3 years, 7 months and 16 days of practical experience
-```
-
+<div align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=1500&color=FFFFFF&width=600&lines=Architecting+the+Web+%26+Android+future.;From+C%2B%2B+Game+Dev+to+Rust+safety.;Precision+at+the+runtime+level.;Performance+is+not+an+option." alt="Apple Style Typing SVG" />
 </div>
 
-## About
-
-Software Architect and Full-Stack Developer specializing in **high-concurrency systems** and scalable solutions. 
-
-I excel at **integrating with robust C#/.NET Core Backends** and translating that performance into modern **React/Vue.js Frontends**. My focus is on ensuring professional delivery through strict type safety (TypeScript), Clean Architecture (MVVM/Microservices), and solid DevOps practices.
-
-I am currently deepening my expertise in **Systems Programming (Rust)** to solve low-latency challenges and strengthen core architectural design—a skillset demonstrated by my work on the **ExamFlow Platform**.
-
-I prioritize efficient, maintainable code that consistently meets high-availability metrics.
+### [Gustavo Fernandes](https://github.com/gustavofvs)
+**Systems Architect | Web & Android Developer**
 
 ---
 
-## Core Stack
+## `The Trajectory`
+My technical journey began with the simplicity of **Lua**, quickly evolving into **Python's** logic. The pursuit of raw performance led me to game development in **C++**, where I learned to master the hardware. After consolidating robust systems in **Java**, I transitioned to studying **Rust**, focusing on memory safety and concurrency.
 
-**Backend** → C# .NET · Node.js · Java Spring · Rust · Tokio  
-**Frontend** → React · Vue.js · TypeScript  
-**Mobile** → Kotlin · Flutter · Jetpack Compose  
-**DevOps** → Docker · Kubernetes · AWS · GCP  
-**Data** → PostgreSQL · MongoDB
+Today, I apply this technical rigor to **Web and Android** development, merging backend complexity with fluid, high-performance interfaces.
+
+* **Systems Roots:** From lightweight scripts to complex C++ engines and memory-safe Rust architectures.
+* **Mobile & Web Focus:** Specializing in **Next.js**, **React**, and **Android**, delivering products that scale.
+* **Data Core:** Designing resilient persistence layers using **MySQL** and **MongoDB**.
 
 ---
 
-## Featured Work
-
+## `The Catalyst`
 ### [ExamFlow Platform](https://github.com/Exam-Flow/)
-Microservices-based assessment platform with Clean Architecture  
-**Stack:** C# .NET · Vue.js · Docker · PostgreSQL  
-**Metrics:** 99.9% uptime · <200ms response time
+A microservices-based educational management platform developed for **IF Goiano**.
+> "Simplicity is the ultimate sophistication."
+
+This is where my **Frontend saga** began. While contributing to the ExamFlow interface, I discovered the challenge of transforming complex backend logic into high-performance visual experiences. Currently in my **3rd year of High School**, I use this project as my primary laboratory for **Clean Architecture**.
 
 ---
 
-## Performance
+## `Technical Stack`
 
-<div align="center">
-  <img height="170em" src="https://github-readme-streak-stats.herokuapp.com/?user=gustavofvs&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=FFFFFF" />
-</div>
+| Ecosystem | Frameworks & Tools | Systems & Data |
+| :--- | :--- | :--- |
+| **Web** | `Next.js 15` • `React` • `Vite` | `Rust` • `Java` |
+| **Android** | `Kotlin` • `Jetpack Compose` | `C++` • `Lua` |
+| **Persistence** | `MySQL` • `MongoDB` | `Docker` • `PostgreSQL` |
 
 ---
 
-<div align="center">
-  
-**[📧 Email](mailto:gustavofernandesvs@gmail.com)** • **[💼 GitHub](https://github.com/gustavofvs)**
+## `System Diagnostics`
 
-</div>
+```bash
+# Analyzing Gustavo Fernandes' stack...
+$ status --check-evolution
+> Origin: Lua -> Python -> C++ Games -> Java
+> Focus: Web & Android Ecosystems (The Frontend Saga)
+> Studying: Rust Memory Safety & Systems Programming
+> Location: Goiás, Brazil | IF Goiano
