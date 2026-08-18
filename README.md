@@ -1,50 +1,48 @@
-# `Engineering. Refined.`
+<h1 align="center">Hello. What brings you here?</h1>
 
-<div align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=28&pause=1500&color=FFFFFF&width=600&lines=Architecting+the+Web+%26+Android+future.;From+C%2B%2B+Game+Dev+to+Rust+safety.;Precision+at+the+runtime+level.;Performance+is+not+an+option." alt="Apple Style Typing SVG" />
-</div>
+<p align="center">
+  I'm <strong>Gustavo</strong>. I build things for the web and Android,<br />
+  study Rust, and turn random ideas into working software.
+</p>
 
-### [Gustavo Fernandes](https://github.com/gustavofvs)
-**Systems Architect | Web & Android Developer**
-
----
-
-## `The Trajectory`
-My technical journey began with the simplicity of **Lua**, quickly evolving into **Python's** logic. The pursuit of raw performance led me to game development in **C++**, where I learned to master the hardware. After consolidating robust systems in **Java**, I transitioned to studying **Rust**, focusing on memory safety and concurrency.
-
-Today, I apply this technical rigor to **Web and Android** development, merging backend complexity with fluid, high-performance interfaces.
-
-* **Systems Roots:** From lightweight scripts to complex C++ engines and memory-safe Rust architectures.
-* **Mobile & Web Focus:** Specializing in **Next.js**, **React**, and **Android**, delivering products that scale.
-* **Data Core:** Designing resilient persistence layers using **MySQL** and **MongoDB**.
+<p align="center">
+  <sub>Web development · Android · Systems · Sim racing · 3D printing</sub>
+</p>
 
 ---
 
-## `The Catalyst`
-### [ExamFlow Platform](https://github.com/Exam-Flow/)
-A microservices-based educational management platform developed for **IF Goiano**.
-> "Simplicity is the ultimate sophistication."
+### A little about me
 
-This is where my **Frontend saga** began. While contributing to the ExamFlow interface, I discovered the challenge of transforming complex backend logic into high-performance visual experiences. Currently in my **3rd year of High School**, I use this project as my primary laboratory for **Clean Architecture**.
+- I enjoy building interfaces and understanding what happens behind them.
+- I am currently trying to make peace with the Rust compiler.
+- When I am not coding, I am probably in the simulator.
+- I also keep a small fleet of 3D printers busy.
 
+### Things you may find here
+
+<p>
+  <code>TypeScript</code>&nbsp;
+  <code>Next.js</code>&nbsp;
+  <code>React</code>&nbsp;
+  <code>Kotlin</code>&nbsp;
+  <code>Rust</code>&nbsp;
+  <code>Java</code>&nbsp;
+  <code>C++</code>&nbsp;
+  <code>PostgreSQL</code>
+  
+</p>
 ---
 
-## `Technical Stack`
+<h3 align="center">One last thing before you go</h3>
 
-| Ecosystem | Frameworks & Tools | Systems & Data |
-| :--- | :--- | :--- |
-| **Web** | `Next.js 15` • `React` • `Vite` | `Rust` • `Java` |
-| **Android** | `Kotlin` • `Jetpack Compose` | `C++` • `Lua` |
-| **Persistence** | `MySQL` • `MongoDB` | `Docker` • `PostgreSQL` |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=16&amp;duration=4000&amp;pause=1400&amp;center=true&amp;vCenter=true&amp;random=true&amp;width=900&amp;height=64&amp;lines=There%20are%2010%20kinds%20of%20people%3A%20those%20who%20understand%20binary%20and%20those%20who%20don't.;It%20works%20on%20my%20machine.%20A%20timeless%20classic.;My%20code%20has%20no%20bugs.%20It%20develops%20unexpected%20features.;Hardware%20is%20what%20you%20kick.%20Software%20is%20what%20you%20blame.;A%20SQL%20query%20walks%20into%20a%20bar%20and%20asks%3A%20can%20I%20join%20you%3F&amp;color=79C0FF" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=16&amp;duration=4000&amp;pause=1400&amp;center=true&amp;vCenter=true&amp;random=true&amp;width=900&amp;height=64&amp;lines=There%20are%2010%20kinds%20of%20people%3A%20those%20who%20understand%20binary%20and%20those%20who%20don't.;It%20works%20on%20my%20machine.%20A%20timeless%20classic.;My%20code%20has%20no%20bugs.%20It%20develops%20unexpected%20features.;Hardware%20is%20what%20you%20kick.%20Software%20is%20what%20you%20blame.;A%20SQL%20query%20walks%20into%20a%20bar%20and%20asks%3A%20can%20I%20join%20you%3F&amp;color=0969DA" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=16&amp;duration=4000&amp;pause=1400&amp;center=true&amp;vCenter=true&amp;random=true&amp;width=900&amp;height=64&amp;lines=There%20are%2010%20kinds%20of%20people%3A%20those%20who%20understand%20binary%20and%20those%20who%20don't.;It%20works%20on%20my%20machine.%20A%20timeless%20classic.;My%20code%20has%20no%20bugs.%20It%20develops%20unexpected%20features.;Hardware%20is%20what%20you%20kick.%20Software%20is%20what%20you%20blame.;A%20SQL%20query%20walks%20into%20a%20bar%20and%20asks%3A%20can%20I%20join%20you%3F&amp;color=0969DA" alt="A rotating programming joke" />
+  </picture>
+</p>
 
----
-
-## `System Diagnostics`
-
-```bash
-# Analyzing Gustavo Fernandes' stack...
-$ status --check-evolution
-> Origin: Lua -> Python -> C++ Games -> Java
-> Focus: Web & Android Ecosystems (The Frontend Saga)
-> Studying: Rust Memory Safety & Systems Programming
-> Location: Goiás, Brazil | IF Goiano
+<p align="center">
+  <sub>The joke changes on its own. Its quality is not guaranteed.</sub>
+</p>
